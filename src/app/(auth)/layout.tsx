@@ -10,6 +10,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-      <div>{children}</div>
+      <div className="flex h-screen justify-center items-center">
+      {children}
+      </div>
   );
 }
